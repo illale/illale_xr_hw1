@@ -17,7 +17,7 @@ public class PointLight : MonoBehaviour
     {
         InputHelpers.IsPressed(InputDevices.GetDeviceAtXRNode(XRNode.RightHand), InputHelpers.Button.SecondaryButton, out bool SecondaryButton, 0.5f);
         if (SecondaryButton) {
-            light.color = Color.blue;
+            light.color = Color.red;
             Debug.Log("Trigger button is pressed.");
         }
     }

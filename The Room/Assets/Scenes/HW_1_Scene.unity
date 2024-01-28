@@ -850,7 +850,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.8490566, g: 0.07609467, b: 0.2167466, a: 1}
+  m_Color: {r: 0.91224635, g: 0.9433962, b: 0.9397535, a: 1}
   m_Intensity: 500
   m_Range: 50
   m_SpotAngle: 30
@@ -1475,7 +1475,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.93894625, g: 0.943195, b: 0.9433962, a: 1}
+  m_Color: {r: 0.0813012, g: 0.084905684, b: 0.084905684, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

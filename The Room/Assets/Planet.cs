@@ -14,6 +14,6 @@ public class Planet : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Rotate(0, 2.5f*Time.deltaTime, 0);
+        transform.Rotate(0, 5f*Time.deltaTime, 0);
     }
 }

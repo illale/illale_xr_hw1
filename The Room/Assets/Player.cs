@@ -15,7 +15,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        InputHelpers.IsPressed(InputDevices.GetDeviceAtXRNode(XRNode.LeftHand), InputHelpers.Button.PrimaryButton, out bool PrimaryButton, 0.5f);
+        InputHelpers.IsPressed(InputDevices.GetDeviceAtXRNode(XRNode.LeftHand), InputHelpers.Button.SecondaryButton, out bool PrimaryButton, 1f);
         if (PrimaryButton) {
             if (changedLocation) {
                 transform.position = new Vector3(0, 2, 100);
